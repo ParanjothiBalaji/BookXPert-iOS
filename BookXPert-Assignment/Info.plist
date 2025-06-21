@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN"
+   "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+  <dict>
+    <!-- Google Sign-In config -->
+    <key>GIDClientID</key>
+    <string>958604796657-ph56hr5klo6s305s519ve5bc15nbsgtg.apps.googleusercontent.com</string>
+
+    <key>CFBundleURLTypes</key>
+    <array>
+      <dict>
+        <key>CFBundleURLSchemes</key>
+        <array>
+          <string>com.googleusercontent.apps.958604796657-ph56hr5klo6s305s519ve5bc15nbsgtg</string>
+        </array>
+      </dict>
+    </array>
+
+    <key>LSApplicationQueriesSchemes</key>
+    <array>
+      <string>com.googleusercontent.apps.958604796657-ph56hr5klo6s305s519ve5bc15nbsgtg</string>
+      <string>com-google-gidconsent-google</string>
+      <string>com-google-gidconsent</string>
+      <string>googlechrome</string>
+      <string>googlechrome-x-callback</string>
+    </array>
+
+    <!-- Camera Permission Access-->
+    
+    <key>NSCameraUsageDescription</key>
+    <string>We need camera access to capture your image.</string>
+    <key>NSPhotoLibraryUsageDescription</key>
+    <string>We need photo library access to select your image.</string>
+    
+    <key>API_BASE_URL</key>
+    <string>https://api.restful-api.dev/objects</string>
+    
+    <key>BookXPert_PDF_URL</key>
+    <string>https://fssservices.bookxpert.co/GeneratedPDF/Companies/nadc/2024-2025/BalanceSheet.pdf</string>
+    
+    </dict>
+</plist>

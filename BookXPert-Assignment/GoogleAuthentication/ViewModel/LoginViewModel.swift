@@ -21,7 +21,6 @@ class LoginViewModel {
             case .success(let user):
                 print("Login success: \(user.email ?? "No name")")
                 self.delegate?.didLoginSuccessfully()
-                
                 let user = UserDetails(name: user.displayName ?? "", email: user.email ?? "")
                 CoreDataManager.shared.saveUserDetails(user)
             case .failure(let error):

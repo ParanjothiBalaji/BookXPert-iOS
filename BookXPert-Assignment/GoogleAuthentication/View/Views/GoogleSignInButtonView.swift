@@ -85,7 +85,6 @@ class GoogleSignInButtonView: UIView {
         let gradient = CAGradientLayer()
         gradient.colors = [
             UIColor.white.cgColor,
-//            UIColor(red: 66/255, green: 133/255, blue: 244/255, alpha: 1).cgColor
             UIColor.systemCyan.cgColor
         ]
         gradient.startPoint = CGPoint(x: 0, y: 0.5)
